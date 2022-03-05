@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Module</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <div class="content" id="options">
+            <label class="label" for="shape">Choose a Shape:</label>
+
+            <select class="input" id="shape">
+                <option value="shapes">Select a Shape</option>
+                <option value="square">Square</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+            </select>
+        </div>
+
+        <div class="content" id="imgWrap">
+            <h3></h3>
+            <img src="" alt="">
+        </div>
+
+        <div class="content" id="square">
+            <label class="label" for="side">Enter value for side of your square:</label><br>
+            <input class="input" type="number" id="side" placeholder="Side">
+            <input class="button" type="submit" id="sqArea" value="Calculate">
+        </div>
+
+        <div class="content" id="rectangle">
+            <label class="label" for="length">Enter value for sides of your Rectangle:</label><br>
+            <input class="input" type="number" id="length" placeholder="Length">
+            <input class="input" type="number" id="breadth" placeholder="Breadth">
+            <input class="button" type="submit" id="recArea" value="Calculate">
+        </div>
+
+        <div class="content" id="circle">
+            <label class="label" for="radius">Enter value for radius of your Circle:</label><br>
+            <input class="input" type="number" id="radius" placeholder="Radius">
+            <input class="button" type="submit" id="cirArea" value="Calculate">
+        </div>
+
+        <div id="result">
+            <h4></h4>
+        </div>
+
+    </div>
+
+    <script src="script.js" type="module" charset="utf-8"></script>
+</body>
+
+</html>
